@@ -5,6 +5,6 @@ describe("GET /", function() {
     //navigate to root and check the the response is "hello world"
     request(app)
       .get("/")
-      .expect("hello donya", done);
+      .expect("hello, this text means Jenkins test passed", done);
   });
 });
